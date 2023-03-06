@@ -1,10 +1,10 @@
 import React from "react";
-import { FaAmbulance, FaCreditCard, FaAddressCard } from "react-icons/fa";
+import { FaShippingFast, FaCreditCard, FaAddressCard } from "react-icons/fa";
 
 const ShoppingArea = () => {
   const services = [
     {
-      icon: <FaAmbulance />,
+      icon: <FaShippingFast />,
       title: "Free Delivery",
       describe: "Free shipping around the world for all orders over $120",
     },
@@ -20,18 +20,21 @@ const ShoppingArea = () => {
     },
   ];
   return (
-    <section className="my-5">
+    <section className="mb-5 py-3" style={{ backgroundColor: "#e0f2da" }}>
       <div className="container">
         <div className="row">
           {services.map((service, id) => (
             <div key={id} className="col-sm-12 col-md-6 col-lg-4 mt-2 mt-lg-0">
-              <div className="d-flex align-items-center justify-content-between gap-3 border p-2 shadow-sm rounded">
-                <p className="color-green" style={{ fontSize: "70px" }}>
+              <div>
+                <p
+                  className="color-green text-center"
+                  style={{ fontSize: "60px" }}
+                >
                   {service.icon}
                 </p>
-                <div>
+                <div className="text-center">
                   <h4 className="font-semibold">{service.title}</h4>
-                  <p>{service.describe}</p>
+                  <p className="fs-5">{service.describe}</p>
                 </div>
               </div>
             </div>

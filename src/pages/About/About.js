@@ -2,13 +2,13 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="my-5 px-2 px-md-5">
+    <section className="my-5 px-2 px-md-5 py-5">
       <h2 className="text-center text-secondary text-uppercase h6">
         A little story about us
       </h2>
       <h2 className="text-center fs-1">Our History</h2>
-      <div className="col-md-10 mx-auto">
-        <p className="text-justify text-secondary">
+      <div className="col-md-8 mx-auto mt-md-3">
+        <p className="text-center">
           There Are Many Variations Of Passages Of Lorem Ipsum Available, But
           The Majority Have Suffered Alteration In Some Form, By Injected
           Humour, Or Randomised Words Which Don't Look Even Slightly Believable.

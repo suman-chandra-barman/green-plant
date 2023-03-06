@@ -5,7 +5,7 @@ import banner3 from "../../../assets/slider/slider-10.jpg";
 
 const Banner = () => {
   return (
-    <header className="container mx-auto">
+    <header>
       <div
         id="carouselExampleCaptions"
         className="carousel slide"

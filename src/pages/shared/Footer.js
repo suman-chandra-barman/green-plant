@@ -13,7 +13,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="my-5" style={{ backgroundColor: "#e0f2da" }}>
+    <div style={{ backgroundColor: "#e0f2da" }}>
       <footer className="container  text-center text-lg-start">
         <div className="container py-5 pb-0">
           <section className="">

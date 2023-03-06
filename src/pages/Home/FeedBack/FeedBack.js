@@ -7,13 +7,13 @@ const FeedBack = () => {
 
   const settings = {
     dots: true,
-    infinite: false,
-    speed: 5000,
+    infinite: true,
+    speed: 10000,
     slidesToShow: 3,
     slidesToScroll: 3,
     initialSlide: 0,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     cssEase: "linear",
     responsive: [
       {
