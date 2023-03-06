@@ -1,6 +1,7 @@
 import React from "react";
 import About from "../../About/About";
 import Banner from "../Banner/Banner";
+import FeedBack from "../FeedBack/FeedBack";
 import Products from "../Products/Products";
 import ShoppingArea from "../ShoppingArea/ShoppingArea";
 
@@ -11,6 +12,7 @@ const Home = () => {
       <ShoppingArea />
       <About />
       <Products />
+      <FeedBack />
     </main>
   );
 };
