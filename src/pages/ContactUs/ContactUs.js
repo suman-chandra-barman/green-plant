@@ -6,7 +6,7 @@ const ContactUs = () => {
     <section>
       <div className="py-5 container mx-auto">
         <h2 className="fs-1 fw-bold text-center my-4">Contact us</h2>
-        <p className="text-center w-responsive mx-auto mb-5 fs-5">
+        <p className="text-center mx-auto mb-5 fs-5 w-75">
           Do you have any questions? Please do not hesitate to contact us
           directly. Our team will come back to you within a matter of hours to
           help you.
