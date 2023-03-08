@@ -1,5 +1,6 @@
 import React from "react";
 import About from "../../About/About";
+import ContactUs from "../../ContactUs/ContactUs";
 import Advertise from "../Advertise/Advertise";
 import Shop from "../Advertise/Shop";
 import Banner from "../Banner/Banner";
@@ -19,6 +20,7 @@ const Home = () => {
       <Shop />
       <FeedBack />
       <Video />
+      <ContactUs />
     </main>
   );
 };
