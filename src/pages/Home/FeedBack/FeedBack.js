@@ -44,7 +44,7 @@ const FeedBack = () => {
   };
 
   useEffect(() => {
-    fetch("Feedbacks.json").then((res) =>
+    fetch("https://green-plant-server.vercel.app/feedbacks").then((res) =>
       res
         .json()
         .then((data) => {

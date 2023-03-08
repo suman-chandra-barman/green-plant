@@ -1,23 +1,37 @@
 import React from "react";
+import img from "../../assets/about/about.jpg";
 
 const About = () => {
   return (
-    <section className="my-5 px-2 px-md-5 py-5">
-      <h2 className="text-center text-secondary text-uppercase h6">
-        A little story about us
-      </h2>
-      <h2 className="text-center fs-1">Our History</h2>
-      <div className="col-md-8 mx-auto mt-md-3">
-        <p className="text-center">
-          There Are Many Variations Of Passages Of Lorem Ipsum Available, But
-          The Majority Have Suffered Alteration In Some Form, By Injected
-          Humour, Or Randomised Words Which Don't Look Even Slightly Believable.
-          If You Are Going To Use A Passage Of Lorem Ipsum, You Need To Be Sure
-          There Isn't Anything Embarrassing Hidden In The Middle This The First
-          True Generator On The Internet. It Uses A Dictionary Of Over 200 Latin
-          Words, Combined With A Injected Humour, Or Non-Characteristic Words
-          Etc...
-        </p>
+    <section className="my-5 container mx-auto">
+      <h2 className="text-center fs-2 mb-2 mb-lg-5 text-uppercase">About Us</h2>
+      <div className="row">
+        <div className="col-sm-12 col-lg-6">
+          <figure>
+            <img src={img} className="img-fluid w-100" alt="Banner" />
+          </figure>
+        </div>
+        <div className="col-sm-12 col-lg-6" style={{ fontSize: "18px" }}>
+          <h3 className="color-green fw-bold text-center mb-lg-3">
+            Welcome to Green Plant
+          </h3>
+          <p>
+            We work hard to provide you the best quality plants and planters At
+            Green Plant. Green Plant is the source that bridges the gap between
+            nature and people, offering products and services that fit with your
+            personal style, your lifestyle and your budget.
+          </p>
+          <p>
+            We really believe that bringing the natural world into your home,
+            office, or living space will increase your quality of life. We are
+            here to help strengthen your life long relationship with plants and
+            nature. We make buying plants, planters and accessories very easy by
+            delivering healthy, ready-to-go plants and others to your doorstep.
+            Every plant and products from our company come with simple care
+            instruction, real-time support, direct access to our team of
+            experts, and our guarantee to be there every step of the way.
+          </p>
+        </div>
       </div>
     </section>
   );

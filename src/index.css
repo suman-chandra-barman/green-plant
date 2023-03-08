@@ -12,7 +12,9 @@ code {
     monospace;
 }
 
-/* custom css  */
+/*--------------------------------------------------------------
+# Custom CSS
+--------------------------------------------------------------*/
 .color-green {
   color: #79a206;
 }
@@ -21,6 +23,19 @@ code {
 }
 .btn-green:hover {
   background-color: #79a206 !important;
+  color: white !important;
+}
+.btn-green-white {
+  padding: 8px 15px !important;
+  background-color: #79a206 !important;
+  font-weight: 500 !important;
+  color: white !important;
+  text-transform: uppercase;
+}
+.btn-green-white:hover {
+  border: 1px solid #79a206 !important;
+  background-color: rgba(255, 255, 255, 0.208) !important;
+  color: #79a206 !important;
 }
 .search-field {
   border: 1px solid #79a206 !important;
@@ -28,6 +43,16 @@ code {
 .search-field:focus {
   box-shadow: 0 0 0 0.1rem rgba(30, 44, 3, 0.256) !important;
 }
+/*--------------------------------------------------------------
+# Products Section
+--------------------------------------------------------------*/
 .card-hover:hover {
   border: 2px solid #79a206 !important;
+}
+.product-card-img:hover {
+  cursor: pointer;
+}
+.product-card-shopping-box:hover {
+  background-color: white !important;
+  color: #79a206 !important;
 }

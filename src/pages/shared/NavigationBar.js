@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo/plant-logo.jpg";
+import logo from "../../assets/logo/plant-logo.png";
 
 const NavigationBar = () => {
   return (
@@ -41,6 +41,21 @@ const NavigationBar = () => {
             <li className="nav-item">
               <Link to="/about" className="nav-link fw-semibold">
                 About
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/products" className="nav-link fw-semibold">
+                Products
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/products" className="nav-link fw-semibold">
+                Contact
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/blog" className="nav-link fw-semibold">
+                Blog
               </Link>
             </li>
           </ul>

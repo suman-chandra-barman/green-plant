@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo/plant-logo.jpg";
+import logo from "../../assets/logo/plant-logo.png";
 import {
   FaPhoneAlt,
   FaMailBulk,
@@ -29,10 +29,13 @@ const Footer = () => {
                   Green
                   <span className="color-green">Plant</span>
                 </Link>
+                <h5>
+                  Get in touch with us for the best quality Plants & Planters
+                </h5>
                 <p>
-                  Here you can use rows and columns to organize your footer
-                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
+                  At Green Plant, we are on a mission to bring the beauty of
+                  nature to your indoors and create more relaxing , attractive
+                  and productive places to live and work.
                 </p>
               </div>
 

@@ -1,6 +1,5 @@
 [
   {
-    "_id": 1,
     "name": "BROADLEAF LADY PALM",
     "image": "https://dreamingtheme.kiendaotac.com/teamo/wp-content/uploads/2021/10/pd6-600x600.jpg",
     "price": 189,
@@ -8,7 +7,6 @@
     "rating": 4.5
   },
   {
-    "_id": 2,
     "name": "ALUMINUM PLANT",
     "image": "https://dreamingtheme.kiendaotac.com/teamo/wp-content/uploads/2021/10/pd1-600x600.jpg",
     "price": 149,
@@ -16,7 +14,6 @@
     "rating": 5
   },
   {
-    "_id": 3,
     "name": "CHINE EVERGREEN",
     "image": "https://dreamingtheme.kiendaotac.com/teamo/wp-content/uploads/2021/10/pd9-600x600.jpg",
     "price": 249,
@@ -24,7 +21,6 @@
     "rating": 5
   },
   {
-    "_id": 4,
     "name": "CYPERUS HELFERI",
     "image": "https://dreamingtheme.kiendaotac.com/teamo/wp-content/uploads/2021/10/pd21-600x600.jpg",
     "price": 129,
@@ -32,7 +28,6 @@
     "rating": 4
   },
   {
-    "_id": 5,
     "name": "CRETAN BRAKE FERN",
     "image": "https://dreamingtheme.kiendaotac.com/teamo/wp-content/uploads/2021/10/pd11-600x600.jpg",
     "price": 229,
@@ -40,7 +35,6 @@
     "rating": 4.5
   },
   {
-    "_id": 6,
     "name": "DUMB CANE",
     "image": "https://dreamingtheme.kiendaotac.com/teamo/wp-content/uploads/2021/10/pd12-600x600.jpg",
     "price": 329,
@@ -48,7 +42,6 @@
     "rating": 5
   },
   {
-    "_id": 7,
     "name": "ARECA PALM",
     "image": "https://dreamingtheme.kiendaotac.com/teamo/wp-content/uploads/2021/10/pd2-600x600.jpg",
     "price": 199,
@@ -56,7 +49,6 @@
     "rating": 4.5
   },
   {
-    "_id": 8,
     "name": "CORN PLANT",
     "image": "https://dreamingtheme.kiendaotac.com/teamo/wp-content/uploads/2021/10/pd10-600x600.jpg",
     "price": 299,

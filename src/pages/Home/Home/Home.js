@@ -14,8 +14,8 @@ const Home = () => {
       <Banner />
       <ShoppingArea />
       <About />
-      <Advertise />
       <Products />
+      <Advertise />
       <Shop />
       <FeedBack />
       <Video />

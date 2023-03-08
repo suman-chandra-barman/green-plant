@@ -21,7 +21,7 @@ const Shop = () => {
               Proin interdum magna primis <br /> id consequat dictum
             </p>
             <button
-              className="btn text-white font-bold px-4 py-2"
+              className="btn btn-green-white"
               style={{ backgroundColor: "#79a206" }}
             >
               Shop Now
@@ -43,12 +43,7 @@ const Shop = () => {
             <p>
               Use code: TEAMO Get 25% Off <br /> for all Accessories items!
             </p>
-            <button
-              className="btn text-white font-bold px-4 py-2"
-              style={{ backgroundColor: "#79a206" }}
-            >
-              Shop Now
-            </button>
+            <button className="btn btn-green-white">Shop Now</button>
           </div>
         </div>
       </div>
