@@ -1,4 +1,5 @@
 import React from "react";
+import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 
 const FeedBackCard = ({ feedback }) => {
   const { image, name, title, message } = feedback;
@@ -8,7 +9,11 @@ const FeedBackCard = ({ feedback }) => {
         <img src={image} alt="Client" className="mx-auto" />
       </div>
       <div className="mt-3">
-        <p>{message}</p>
+        <p>
+          <FaQuoteLeft className="me-2 fs-4" />
+          {message}
+          <FaQuoteRight className="ms-2 fs-4" />
+        </p>
         <h4>{name}</h4>
         <p>{title}</p>
       </div>

@@ -16,7 +16,7 @@ const Products = () => {
       });
   }, []);
   return (
-    <section className="container mx-auto my-5">
+    <section className="container mx-auto my-5" data-aos="fade-up">
       <ul className="nav justify-content-center text-uppercase gap-3">
         <li className="nav-item">
           <Link className="nav-link active font-extrabold"> TOP RATED</Link>

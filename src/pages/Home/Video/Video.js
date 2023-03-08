@@ -5,6 +5,9 @@ const Video = () => {
   return (
     <section
       className="py-5 text-white"
+      data-aos="fade-up"
+      data-aos-duration="800"
+      data-aos-offset="1400"
       style={{ backgroundImage: `url(${banner})` }}
     >
       <div className="text-center my-5">

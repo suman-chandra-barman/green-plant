@@ -8,7 +8,7 @@ const FeedBack = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 10000,
+    speed: 15000,
     slidesToShow: 3,
     slidesToScroll: 3,
     initialSlide: 0,
@@ -57,7 +57,12 @@ const FeedBack = () => {
     );
   }, []);
   return (
-    <section className="py-5 px-2" style={{ backgroundColor: "#e0f2da" }}>
+    <section
+      className="py-5 px-2"
+      data-aos="fade-up"
+      data-aos-offset="1350"
+      style={{ backgroundColor: "#e0f2da" }}
+    >
       <div className="container mx-auto">
         <div className="text-center">
           <h2>What Our Customers Says ?</h2>

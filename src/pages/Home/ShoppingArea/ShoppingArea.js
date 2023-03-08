@@ -20,7 +20,11 @@ const ShoppingArea = () => {
     },
   ];
   return (
-    <section className="mb-5 py-3" style={{ backgroundColor: "#e0f2da" }}>
+    <section
+      className="mb-5 py-3"
+      data-aos="fade-up"
+      style={{ backgroundColor: "#e0f2da" }}
+    >
       <div className="container">
         <div className="row">
           {services.map((service, id) => (

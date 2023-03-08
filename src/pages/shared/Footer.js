@@ -13,7 +13,11 @@ import {
 
 const Footer = () => {
   return (
-    <div style={{ backgroundColor: "#e0f2da" }}>
+    <div
+      data-aos="fade-up"
+      data-aos-offset="1500"
+      style={{ backgroundColor: "#e0f2da" }}
+    >
       <footer className="container  text-center text-lg-start">
         <div className="container py-5 pb-0">
           <section className="">
@@ -29,7 +33,7 @@ const Footer = () => {
                   Green
                   <span className="color-green">Plant</span>
                 </Link>
-                <h5>
+                <h5 className="mt-2">
                   Get in touch with us for the best quality Plants & Planters
                 </h5>
                 <p>
@@ -54,6 +58,12 @@ const Footer = () => {
                 <p>
                   <Link className="text-black">Parlor Palm</Link>
                 </p>
+                <p>
+                  <Link className="text-black">Flowering Plants</Link>
+                </p>
+                <p>
+                  <Link className="text-black">Bonsai</Link>
+                </p>
               </div>
 
               <hr className="w-100 clearfix d-md-none" />
@@ -70,6 +80,12 @@ const Footer = () => {
                 <p>
                   <Link className="text-black">Help</Link>
                 </p>
+                <p>
+                  <Link className="text-black">My Account</Link>
+                </p>
+                <p>
+                  <Link className="text-black">Order History</Link>
+                </p>
               </div>
               <hr className="w-100 clearfix d-md-none" />
 
@@ -85,6 +101,9 @@ const Footer = () => {
                 </p>
                 <p>
                   <FaPhoneAlt />+ 01 234 567 88
+                </p>
+                <p>
+                  <FaPhoneAlt />+ 0234 567 88
                 </p>
               </div>
             </div>

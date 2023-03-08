@@ -3,7 +3,11 @@ import bg from "../../../assets/advertise/bg-shop.jpg";
 import bg2 from "../../../assets/advertise/bg-shop2.jpg";
 const Shop = () => {
   return (
-    <section className="container mx-auto">
+    <section
+      className="container mx-auto"
+      data-aos="fade-up"
+      data-aos-offset="1200"
+    >
       <div className="row">
         <div className="col-sm-12 col-lg-6 py-5">
           <div

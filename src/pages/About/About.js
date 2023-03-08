@@ -4,17 +4,17 @@ import img from "../../assets/about/about.jpg";
 const About = () => {
   return (
     <section className="my-5 container mx-auto">
-      <h2 className="text-center fs-2 mb-2 mb-lg-5 text-uppercase">About Us</h2>
-      <div className="row">
+      <div className="row" data-aos="fade-up">
         <div className="col-sm-12 col-lg-6">
           <figure>
             <img src={img} className="img-fluid w-100" alt="Banner" />
           </figure>
         </div>
         <div className="col-sm-12 col-lg-6" style={{ fontSize: "18px" }}>
-          <h3 className="color-green fw-bold text-center mb-lg-3">
-            Welcome to Green Plant
-          </h3>
+          <h2 className="text-center fs-3 text-uppercase color-green fw-bold ">
+            About Us
+          </h2>
+          <h4 className="text-center mb-lg-3">Welcome to Green Plant</h4>
           <p>
             We work hard to provide you the best quality plants and planters At
             Green Plant. Green Plant is the source that bridges the gap between

@@ -40,7 +40,11 @@ const Banner = () => {
               className="carousel-caption d-none d-md-block text-black text-start"
               style={{ top: 0, left: "10%", right: 0, button: 0 }}
             >
-              <div className="h-100 d-flex flex-column justify-content-center my-auto">
+              <div
+                className="h-100 d-flex flex-column justify-content-center my-auto"
+                data-aos="fade-down"
+                data-aos-duration="2000"
+              >
                 <p
                   className="text-uppercase fs-5"
                   style={{ letterSpacing: "5px" }}
@@ -67,7 +71,11 @@ const Banner = () => {
               className="carousel-caption d-none d-md-block text-black text-start"
               style={{ top: 0, left: "10%", right: 0, button: 0 }}
             >
-              <div className="h-100  d-flex flex-column justify-content-center my-auto">
+              <div
+                className="h-100  d-flex flex-column justify-content-center my-auto"
+                data-aos="fade-down"
+                data-aos-duration="2000"
+              >
                 <p
                   className="text-uppercase fs-5"
                   style={{ letterSpacing: "5px" }}
@@ -95,7 +103,11 @@ const Banner = () => {
               className="carousel-caption d-none d-md-block text-black text-start"
               style={{ top: 0, left: "10%", right: 0, button: 0 }}
             >
-              <div className="h-100  d-flex flex-column justify-content-center my-auto">
+              <div
+                className="h-100  d-flex flex-column justify-content-center my-auto"
+                data-aos="fade-down"
+                data-aos-duration="2000"
+              >
                 <p
                   className="text-uppercase fs-5"
                   style={{ letterSpacing: "5px" }}
