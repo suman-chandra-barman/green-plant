@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import { useLoaderData } from "react-router-dom";
+import { FaMinus, FaPlus, FaStar } from "react-icons/fa";
 
 const ProductDetails = () => {
   const product = useLoaderData();
   const { image, name, price, discount_price, rating } = product;
+  const [quantity, setQuantity] = useState(1);
+
+  let position;
+  if (Number.isInteger(rating)) {
+    position = "65px";
+  } else {
+    position = "75px";
+  }
+
+  console.log(Number.isInteger(rating));
 
   return (
     <section>
@@ -25,9 +36,15 @@ const ProductDetails = () => {
           <div className="col-sm-12 col-md-6">
             <div className="py-2">
               <h4>{name}</h4>
-              <p>Rating: {rating}</p>
-              <div className="d-flex gap-3 align-items-center">
-                <p className="card-text fs-3 fw-bold">
+              <div className="position-relative">
+                <p className="fs-6"> Rating: {rating}</p>
+                <FaStar
+                  className="position-absolute text-warning"
+                  style={{ top: "-2px", left: `${position}` }}
+                />
+              </div>
+              <div className="d-flex gap-3 align-items-center my-2">
+                <p className="card-text fs-4 fw-bold mb-0">
                   <span>Price: </span>${parseFloat(discount_price).toFixed(2)}
                 </p>
                 <p className="card-text fs-5 text-decoration-line-through">
@@ -36,7 +53,7 @@ const ProductDetails = () => {
               </div>
 
               <p>
-                Availability: <span>10</span> <span>In Stock</span>
+                Availability: <span className="fw-semibold">10 In Stock</span>
               </p>
 
               <p>
@@ -47,12 +64,22 @@ const ProductDetails = () => {
                 with up to 5 percent polyester created from recycled plastic.
               </p>
               <div className="my-3">
-                <label htmlFor="quantity">Quantity:</label>
+                <p>Quantity:</p>
+                <FaMinus
+                  onClick={() => setQuantity(quantity - 1)}
+                  style={{ cursor: "pointer" }}
+                />
                 <input
                   type="number"
                   name="quantity"
-                  defaultValue={1}
-                  className="text-center ms-2"
+                  defaultValue={quantity}
+                  value={quantity}
+                  className="text-center mx-4"
+                />
+                <FaPlus
+                  onClick={() => setQuantity(quantity + 1)}
+                  className=""
+                  style={{ cursor: "pointer" }}
                 />
               </div>
               <button className="btn btn-green-black w-75">Add To Card</button>
