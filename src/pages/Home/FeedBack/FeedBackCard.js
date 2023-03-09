@@ -4,7 +4,7 @@ import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 const FeedBackCard = ({ feedback }) => {
   const { image, name, title, message } = feedback;
   return (
-    <div className="border border-1 p-3 m-2 text-center rounded bg-white">
+    <div className="p-3 m-3 text-center rounded-2 bg-white">
       <div className="mx-auto">
         <img src={image} alt="Client" className="mx-auto" />
       </div>

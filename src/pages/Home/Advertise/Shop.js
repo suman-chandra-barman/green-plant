@@ -6,7 +6,7 @@ const Shop = () => {
     <section
       className="container mx-auto"
       data-aos="fade-up"
-      data-aos-offset="1200"
+      data-aos-offset="300"
     >
       <div className="row">
         <div className="col-sm-12 col-lg-6 py-5">
@@ -25,7 +25,7 @@ const Shop = () => {
               Proin interdum magna primis <br /> id consequat dictum
             </p>
             <button
-              className="btn btn-green-white"
+              className="btn btn-green-black"
               style={{ backgroundColor: "#79a206" }}
             >
               Shop Now
@@ -47,7 +47,7 @@ const Shop = () => {
             <p>
               Use code: TEAMO Get 25% Off <br /> for all Accessories items!
             </p>
-            <button className="btn btn-green-white">Shop Now</button>
+            <button className="btn btn-green-black">Shop Now</button>
           </div>
         </div>
       </div>

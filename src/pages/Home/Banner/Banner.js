@@ -58,7 +58,7 @@ const Banner = () => {
                   Gift Green <br /> This <span>Holiday</span>
                 </h2>
                 <div>
-                  <button className="btn btn-outline-success btn-green px-5 py-2 mt-2">
+                  <button className="btn btn-black px-5 py-2 mt-2">
                     Discover
                   </button>
                 </div>
@@ -90,7 +90,7 @@ const Banner = () => {
                   indoor <span>gardening.</span>
                 </h2>
                 <div>
-                  <button className="btn btn-outline-success btn-green px-5 py-2 mt-2">
+                  <button className="btn btn-black px-5 py-2 mt-2">
                     Discover
                   </button>
                 </div>
@@ -121,7 +121,7 @@ const Banner = () => {
                   Give the Gift <br /> of <span>Greenery</span>
                 </h2>
                 <div>
-                  <button className="btn btn-outline-success btn-green px-5 py-2 mt-2">
+                  <button className="btn btn-black px-5 py-2 mt-2">
                     Discover
                   </button>
                 </div>

@@ -7,7 +7,7 @@ const Advertise = () => {
       <div
         className="container mx-auto"
         data-aos="fade-left"
-        data-aos-offset="1100"
+        data-aos-offset="300"
       >
         <div className="text-white d-flex justify-content-center align-items-center gap-3">
           <FaShippingFast style={{ fontSize: "80px" }} />

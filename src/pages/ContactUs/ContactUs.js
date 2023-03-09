@@ -3,7 +3,7 @@ import { FaMapMarkerAlt, FaRegEnvelope, FaPhoneAlt } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
-    <section>
+    <section data-aos="fade-up" data-aos-offset="300">
       <div className="py-5 container mx-auto">
         <h2 className="fs-1 fw-bold text-center my-4">Contact us</h2>
         <p className="text-center mx-auto mb-5 fs-5 w-75">
@@ -82,7 +82,7 @@ const ContactUs = () => {
 
             <div className="text-md-left my-2">
               <button
-                className="btn btn-green-white"
+                className="btn btn-green-black"
                 onClick="document.getElementById('contact-form').submit();"
               >
                 Send Message

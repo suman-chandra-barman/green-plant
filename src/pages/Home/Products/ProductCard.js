@@ -27,7 +27,7 @@ const ProductCard = ({ product }) => {
             </div>
             <div className="d-flex mt-lg-2 gap-2 justify-content-center">
               <Link>
-                <button className="btn btn-green-white">Add To Card</button>
+                <button className="btn btn-green-black">Buy It Now</button>
               </Link>
             </div>
           </div>

@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo/plant-logo.png";
 import {
+  FaMapMarkerAlt,
+  FaRegEnvelope,
   FaPhoneAlt,
-  FaMailBulk,
-  FaHome,
   FaInstagram,
   FaGoogle,
   FaTwitter,
@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-offset="1500"
+      data-aos-offset="300"
       style={{ backgroundColor: "#e0f2da" }}
     >
       <footer className="container  text-center text-lg-start">
@@ -94,16 +94,16 @@ const Footer = () => {
                   Contact
                 </h6>
                 <p>
-                  <FaHome /> Thakurgaon, Dhaka, Bangladesh
+                  <FaMapMarkerAlt /> Thakurgaon, Dhaka, Bangladesh
                 </p>
                 <p>
-                  <FaMailBulk /> info@gmail.com
+                  <FaRegEnvelope /> greenplant@gmail.com
                 </p>
                 <p>
                   <FaPhoneAlt />+ 01 234 567 88
                 </p>
                 <p>
-                  <FaPhoneAlt />+ 0234 567 88
+                  <FaPhoneAlt />+ 0234 567 880
                 </p>
               </div>
             </div>

@@ -9,38 +9,12 @@ const FeedBack = () => {
     dots: true,
     infinite: true,
     speed: 15000,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     initialSlide: 0,
     autoplay: true,
     autoplaySpeed: 3000,
     cssEase: "linear",
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
   };
 
   useEffect(() => {
@@ -60,27 +34,29 @@ const FeedBack = () => {
     <section
       className="py-5 px-2"
       data-aos="fade-up"
-      data-aos-offset="1350"
+      data-aos-offset="300"
       style={{ backgroundColor: "#e0f2da" }}
     >
       <div className="container mx-auto">
         <div className="text-center">
-          <h2>What Our Customers Says ?</h2>
-          <p className="w-75 mx-auto">
+          <h2 className="fs-1 fw-bold my-md-4">What Our Customers Says ?</h2>
+          <p className="fs-5 w-75 mx-auto">
             It Is A Long Established Fact That A Reader Will Be Distracted By
             The Readable Is That It Has A More-Or-Less Normal Dist
           </p>
         </div>
 
         {/* carousel section  */}
-        <div>
-          <div className="row g-4">
+        <div className="row">
+          <div className="col-md-2"></div>
+          <div className="col-md-8">
             <Slider {...settings}>
               {feedbacks.map((feedback) => (
                 <FeedBackCard key={feedback._id} feedback={feedback} />
               ))}
             </Slider>
           </div>
+          <div className="col-md-2"></div>
         </div>
       </div>
     </section>

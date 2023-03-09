@@ -66,7 +66,7 @@ const NavigationBar = () => {
               placeholder="Search"
               aria-label="Search"
             />
-            <button className="btn btn-outline-success btn-green" type="submit">
+            <button className="btn btn-green-black" type="submit">
               Search
             </button>
           </form>
